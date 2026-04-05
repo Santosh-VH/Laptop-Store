@@ -1,0 +1,64 @@
+body {
+  background: #0eb3d4f6;
+}
+
+.filter-btn {
+  font-size:20px;  
+  padding: 10px 20px; 
+}
+
+.filter-btn {
+  border-radius: 30px;  
+}
+
+.search-box input {
+  background: #d8df9a;
+  border: none;
+  padding-right: 40px;
+}
+
+.card {
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+.search-box input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.search-icon {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: rgb(22, 111, 127);
+}
+
+.like-btn {
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.liked {
+  color: rgb(190, 221, 16);
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+}
+
+footer {
+  background-color: #e7eeea;
+  color: rgb(85, 187, 116);
+  text-align: center;
+  padding: 15px;
+  font-weight: 500;
+}
